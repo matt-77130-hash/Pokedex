@@ -1,5 +1,11 @@
-
-function PokemonCard({ pokemon }) {
+interface pokemon {
+    name: string;
+    imgSrc?: string;
+}
+interface PokemonCardProps {
+    pokemon: pokemon;
+}
+function PokemonCard({ pokemon }: PokemonCardProps) {
 
 
 
